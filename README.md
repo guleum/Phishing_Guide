@@ -14,3 +14,4 @@ It's easy to run that test.
 - post.php
 - result.txt
 6. If a user inadvertently enters an id and password, it will be delivered to the attacker's server.
+<img width="479" alt="result" src="https://user-images.githubusercontent.com/78599757/124070504-e2be8700-da78-11eb-9fbf-0316fcd158fe.png">
