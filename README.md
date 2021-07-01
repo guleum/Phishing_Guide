@@ -15,3 +15,7 @@ It's easy to run that test.
 - result.txt
 6. If a user inadvertently enters an id and password, it will be delivered to the attacker's server.
 <img width="479" alt="result" src="https://user-images.githubusercontent.com/78599757/124070504-e2be8700-da78-11eb-9fbf-0316fcd158fe.png">
+
+@@If the login result does not appear properly even after editing the HTML file or the page screen itself does not appear, there are several additional things to check.@@
+1. If there is a javascript statement that redirects to http:// -> https://, delete it.
+2. If there is a "login" and related javascript link at the top or bottom of the html, it must be deleted. (However, img and css are excluded)
